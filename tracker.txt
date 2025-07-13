@@ -1,0 +1,12 @@
+model = tf.keras.models.Sequential([
+		tf.keras.Input(shape=(12,)),
+    tf.keras.layers.Dense(16, activation='relu'),
+    tf.keras.layers.Dropout(0.2),
+    tf.keras.layers.Dense(num_classes, activation='softmax')
+])
+
+
+
+   biopsy_needed  count
+0              0    201
+1              1    165

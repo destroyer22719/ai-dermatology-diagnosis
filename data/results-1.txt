@@ -1,0 +1,22 @@
+Test Loss: 0.2903, Test Accuracy: 0.8904
+Model: "sequential_15"
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃                 ┃ Output     ┃ Param ┃
+┃ Layer (type)    ┃ Shape      ┃     # ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│ dense_38        │ (None, 16) │   208 │
+│ (Dense)         │            │       │
+├─────────────────┼────────────┼───────┤
+│ dropout_23      │ (None, 16) │     0 │
+│ (Dropout)       │            │       │
+├─────────────────┼────────────┼───────┤
+│ dense_39        │ (None, 6)  │   102 │
+│ (Dense)         │            │       │
+└─────────────────┴────────────┴───────┘
+ Total params: 932 (3.64 KB)
+ Trainable params: 310 (1.21 KB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 622 (2.43 KB)
+
+
+Biopsies needed: 145, Not needed: 221, 60.38% not needed

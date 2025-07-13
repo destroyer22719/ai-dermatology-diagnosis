@@ -1,0 +1,30 @@
+Test Loss: 0.2807, Test Accuracy: 0.8767
+Model: "sequential_1"
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃                 ┃ Output     ┃ Param ┃
+┃ Layer (type)    ┃ Shape      ┃     # ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│ dense_4 (Dense) │ (None, 32) │   416 │
+├─────────────────┼────────────┼───────┤
+│ dropout_3       │ (None, 32) │     0 │
+│ (Dropout)       │            │       │
+├─────────────────┼────────────┼───────┤
+│ dense_5 (Dense) │ (None, 64) │ 2,112 │
+├─────────────────┼────────────┼───────┤
+│ dropout_4       │ (None, 64) │     0 │
+│ (Dropout)       │            │       │
+├─────────────────┼────────────┼───────┤
+│ dense_6 (Dense) │ (None, 32) │ 2,080 │
+├─────────────────┼────────────┼───────┤
+│ dropout_5       │ (None, 32) │     0 │
+│ (Dropout)       │            │       │
+├─────────────────┼────────────┼───────┤
+│ dense_7 (Dense) │ (None, 6)  │   198 │
+└─────────────────┴────────────┴───────┘
+ Total params: 14,420 (56.33 KB)
+ Trainable params: 4,806 (18.77 KB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 9,614 (37.56 KB)
+
+
+Biopsies needed: 140, Not needed: 226, 61.75% not needed
